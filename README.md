@@ -4,6 +4,18 @@
 * The Account obj keeps track of transactions, 
 * The user is able to print their current statement.
 
+# How to run the app
+
+ * git clone this repo
+ * open `node` in the terminal
+ * run `npm install`
+ * run tests with `jest`
+ * `const account = new Account;`
+ * `transaction = new Transaction(account);`
+ * `transaction.deposit(200);`  
+   `transaction.withdraw(50);`
+ * print statement by using `console.log(transaction.printStatement());`
+
 
 
 
